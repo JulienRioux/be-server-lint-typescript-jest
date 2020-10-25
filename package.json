@@ -1,0 +1,26 @@
+{
+  "name": "futured-app-back-end",
+  "version": "1.0.0",
+  "description": "Futured app back-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"author": "",
+  "license": "ISC",
+  "keywords": [
+    "Nodejs",
+    "typescript",
+    "express"
+  ],
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

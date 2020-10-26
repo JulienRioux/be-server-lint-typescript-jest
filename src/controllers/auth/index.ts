@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response, Router } from "express";
-export const PingController: Router = Router();
+export const AuthController: Router = Router();
 
-PingController.get(
+AuthController.get(
   "/",
   async (req: Request, res: Response, next: NextFunction) => {
     try {
